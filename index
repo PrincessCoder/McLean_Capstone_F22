@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hqb6rom.css">
+    <title>McLean Final Project</title>
+</head>
+<body>
+    <header>
+        <h1>Neville Public Museum Pollination Garden</h1>
+        <nav>
+            <ul>
+            <li><a href="./pages/research.html">Research</a></li>
+            <li><a href="./pages/sketches.html">Sketches & Ideation</a></li>
+            <li><a href="./pages/app.html">Mobile App</a></li>
+            <li><a href="./pages/motion.html">Motion Design</a></li>
+            <li><a href="./pages/kiosk.html">Interactive kiosk</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <div class="art-thumbnails">
+        <img alt="Capstone" src="art1.gif">
+    </div> -->
+    <div>
+        <h2>Title</h2>
+        <strong>Pollinating the world, one garden at a time.</strong>
+        <p>Pollination gardens provide habitat to wildlife by providing food, water, shelter, and places to raise young, sustaining biodiversity in urban areas, which is critical to our food web.   
+        </p>
+        <p>Visitors waiting for the museum to open see the Pollination Garden; however, they have little information about it and no interaction. As a Neville Public Museum foundation board member, together with the museum staff, I would like to educate visitors while they wait for the museum to open. The current lack of signage & descriptions result in ambivaence toward the pollination garden.
+        </p>
+        <p>The goal is to educate families about the benefits of pollination gardens through entertaining mobile experiences and encourage home pollination gardens by providing knowledge about plants and best practices.</p>
+    </div>
+    <div>
+        <h4>Relative Research</h4>
+        <p>Data Collection</p>
+        <p>User Testing ResultsQuestions</p>
+        <p>Thoughts toward a Solution</p>
+        <h4>Process + Tools</h4>
+        <p>Process: Research, Sketch, Ideation,Wireframe, Prototype, Itererate.</p>
+        <p>Tools: Apple MacBook Pro, Apple iPadPro, Apple iPhone, Procreate, Adobe Illustrator, Photoshop, Dimensions, AfterEffect, Premier Pro, Figma</p>
+        <h4>Deliverables</h4><p><a href="https://www.figma.com/file/i9GCJMk3EWbm7nfKXOfbds/NPM-Pollination-Garden?node-id=0%3A1">Mobile App</a>, Videos* bumpers created in Motion Design, week 7, <a href="./pages/five.html">Interactive Outdoor Kiosk (pg 5 of this website)</a> promotional designs TBD, Augmented Reality link to Instagram, Presentation at Capstone Zoom Event</p>
+    <h3>Summary</h3>
+        <p>Images throughout</p>
+        <p>Endnotes, or a link to a doc containing endnotes.</p>
+        <p><a href="https://indd.adobe.com/view/17e1e8e3-423d-4edd-944d-10e8bb862f54/">Progress Platform</a></p>
+        <p>Works Cited/Bibliography, your Capstone Project, anything else you feel needs to be connected.</p>
+    </div>
+</body>
+</html>
