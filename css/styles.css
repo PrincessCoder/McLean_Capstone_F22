@@ -24,6 +24,7 @@ html {
   --blue: #232e78;
   --font-sans-serif: "Helvetica", sans-serif;
   --font-header: "Helvetica", sans-serif;
+  margin: auto;
 }
 
 body {
@@ -38,6 +39,17 @@ body {
 .header-image {
   padding: 0;
   background-size: cover;
+  position: fixed 0px, 0px, 0px, 0px;
+  display: block;
+}
+
+iframe {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  display: block;
+  width: 100%;
+  align-items: center;
 }
 
 h1{
