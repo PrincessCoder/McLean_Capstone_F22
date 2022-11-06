@@ -34,7 +34,16 @@ body {
   background-size: cover;
 }
 
-h1, h2 {
+h1{
+  font-family: var(--font-header);
+  color: var(--green);
+  width: 60%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+}
+
+h2 {
   font-family: var(--font-header);
   color: var(--green);
 }
@@ -412,7 +421,7 @@ aside {
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
-  float: left;
+  float: right;
   font-style: normal;
-  background-color: lightgray;
+  background-color: #fff;
 }
