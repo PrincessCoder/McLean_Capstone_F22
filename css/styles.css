@@ -8,6 +8,12 @@ img {
   max-width: 100%;
   display: block;
   object-fit: contain; /*keeps images proportional*/
+  position: absolute;
+  margin: 0 px;
+  padding: 0 px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 html {
@@ -36,10 +42,11 @@ body {
 
 h1{
   font-family: var(--font-header);
+  font-size: medium;
   color: var(--green);
-  width: 60%;
-  padding-left: 15px;
-  margin-left: 15px;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 5px;
   float: left;
 }
 
@@ -59,7 +66,23 @@ h4{
 h5 {
   font-size:medium;
   font-weight: normal;
-  
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  font-size: small;
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
 }
 
 figcaption {
