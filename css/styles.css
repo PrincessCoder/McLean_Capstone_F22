@@ -1,18 +1,15 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
+
 
 img {
   max-width: 100%;
-  display: block;
+  width: cover;
+  margin: auto;
   object-fit: contain; /*keeps images proportional*/
-  position: absolute;
-  margin: 0 px;
-  padding: 0 px;
-  left: 0px;
-  top: 0px;
   z-index: -1;
 }
 
@@ -36,11 +33,20 @@ body {
   margin: 36px;
 }
 
+.container {
+  max-width : 1920px;
+  width : 100%;
+  margin : 0 auto;
+  position : relative;
+  }
+
+/* @media screen and (min-width: 480px) {
+  .container {
+  width : 100%;
+  } */
+
 .header-image {
-  padding: 0;
-  background-size: cover;
-  position: fixed 0px, 0px, 0px, 0px;
-  display: block;
+  display: cover;
 }
 
 iframe {
@@ -48,7 +54,7 @@ iframe {
   border: 0px;
   padding: 0px;
   display: block;
-  width: 100%;
+  width: cover;
   align-items: center;
 }
 
