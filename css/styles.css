@@ -247,7 +247,7 @@ hr {
     flex: 1;
   } */
 
-  .header-block-text {
+  /* .header-block-text {
     padding-right: 5rem;
     max-width: 500px;
   } 
@@ -256,16 +256,16 @@ hr {
     padding-right: 5rem;
   }  */
 
-  .block-image { /*why can't I get this wrap?*/
-    padding: 2rem;
+  /* .block-image { /*why can't I get this wrap?*/
+  /* padding: 2rem;
   }
 
   .block-image-resize {
     width: 50%;
     height: auto;
     max-width: 50vw;
-  }
-  
+  } */
+
 /*Problem Statement*/
 
 .problems {
@@ -351,8 +351,7 @@ hr {
 /*bibliography*/
 
 .bibliography {
-  /* background-color: ;
- how to put a transparent box behind it that scrolls?*/
+
 }
 
 .button-style {
