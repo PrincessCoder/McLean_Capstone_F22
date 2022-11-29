@@ -19,11 +19,8 @@ img {
 }
 
 html {
-  --green: #666d47;
-  --gray-light: #449384;
-  --light-green: rgba(178, 188, 128, 50%);
-  --yellow: #ffcc33;
-  --blue: #232e78;
+  --green: #738b09;
+  --light-green: #99b90e;
   --font-sans-serif: "Helvetica", sans-serif;
   --font-header: "Helvetica", sans-serif;
   margin: auto;
@@ -32,7 +29,7 @@ html {
 body {
   font-family: var(--font-sans-serif);
   font-size: medium;
-  color: black;
+  color: gray;
   line-height: 1.5;
   /*background-color: rgba(255, 204, 51, 10%);*/
   margin: 1rem;
@@ -78,7 +75,8 @@ h3{
 }
 
 h4{
-
+  font-family: var(--font-header);
+  color: var(--green);
 }
 
 h5 {
@@ -271,6 +269,9 @@ hr {
 .npm {
 
 }
+a.npm {
+
+}
 .main-nav {
 
 }
@@ -411,10 +412,10 @@ a:hover, a:focus, a:active{
   color: #666d47;
   text-decoration: none;
 }
-/* 
+
 a:visited {
   color: var(--gray-light);
-} */
+}
 
 a:link {
   text-decoration: none;
