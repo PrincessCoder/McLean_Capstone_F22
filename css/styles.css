@@ -4,7 +4,7 @@
   box-sizing: inherit;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 380px) {
   .column {
     width: 100%;
   }
@@ -30,9 +30,13 @@ body {
   font-family: var(--font-sans-serif);
   font-size: medium;
   color: gray;
-  line-height: 1.5;
   /*background-color: rgba(255, 204, 51, 10%);*/
-  margin: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-rendering: optimizeLegibility;
 }
 
 .container {
@@ -68,6 +72,9 @@ h1{
 h2 {
   font-family: var(--font-header);
   color: var(--green);
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-transform: none;
 }
 
 h3{
