@@ -418,7 +418,7 @@ a:link {
 a.menu-links {
   font-family: Helvetica, sans-serif;
   position: relative;
-  display: block;
+  /* display: block; */
   padding: 16px 0;
   margin: 0 12px;
   letter-spacing: 1px;
@@ -450,18 +450,12 @@ a.menu-links:hover::before, a.menu-links:focus::before {
   transform: scale(1, 1);
 }
 
-.mission {
-  font-size: 3rem;
-  max-width: 75rem;
-  text-justify: left;
-  margin: 0;
-  line-height: 1;
-}
-aside {
+/* aside {
   width: 30%;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
   font-style: normal;
   background-color: #fff;
-}
+} */
+
