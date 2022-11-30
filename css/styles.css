@@ -15,7 +15,7 @@ img {
   width: cover;
   margin: auto;
   object-fit: contain; /*keeps images proportional*/
-  z-index: -100;
+  z-index: 0;
 }
 
 html {
@@ -63,10 +63,11 @@ iframe {
 
 h1{
   font-family: var(--font-header);
-  font-size: small;
+  font-size: medium;
   color: #418393;
   width: 100%;
   margin-top: 1em;
+  margin-bottom: auto;
 }
 
 .npm, h1 {
@@ -429,7 +430,7 @@ a.menu-links {
   font-family: Helvetica, sans-serif;
   position: relative;
   /* display: block; */
-  padding: 16px 0;
+  /* padding: 16px 0; */
   margin: 0 12px;
   letter-spacing: 1px;
   font-size: 12px;
