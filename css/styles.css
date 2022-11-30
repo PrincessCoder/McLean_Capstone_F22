@@ -15,7 +15,7 @@ img {
   width: cover;
   margin: auto;
   object-fit: contain; /*keeps images proportional*/
-  z-index: 0;
+  z-index: -100;
 }
 
 html {
@@ -41,6 +41,7 @@ body {
 
 .container {
   max-width : 1920px;
+  min-width: 380px;
   width : 100%;
   margin : 0 auto;
   position : relative;
@@ -61,7 +62,7 @@ iframe {
 
 h1{
   font-family: var(--font-header);
-  font-size: medium;
+  font-size: small;
   color: var(--green);
   width: 100%;
   padding-left: 0px;
@@ -97,15 +98,7 @@ ul {
 
 li {
   display: inline;
-  font-size: medium;
-}
-
-div.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  background-color: green;
-  border: 2px solid #4CAF50;
+  font-size: small;
 }
 
 figcaption {
@@ -198,47 +191,48 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1 0 100%;
   }
 
   /*name in header*/
-  .header--title {
+  /* .header--title {
     font-family: Helvetica, sans-serif;
     font-size: 15px;
     line-height: 16px;
     letter-spacing: 2px;
     font-weight: 900;
     text-transform: uppercase;
-  }
+  } */
 
   /*horizontal menu*/
-  .menu{
+  /* .menu{
     display: flex;
     flex-wrap: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
-  }
+  } */
 
-  .menu a{
+  /* .menu a{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
     text-decoration: none;
     color: black;
-  }
+  } */
 
   /*add something that shows which menu item is selected here*/
 
 /*Hook*/
-  .header-text {
+  /* .header-text {
     font-family: Helvetica;
     font-size: 5rem;
     max-width: 75rem;
     text-justify: left;
     margin: 0;
     line-height: 1.5;
-  }
+  } */
 
   /* .block {
     display: flex;
@@ -273,15 +267,6 @@ hr {
 
 /*Problem Statement*/
 
-.npm {
-
-}
-a.npm {
-
-}
-.main-nav {
-
-}
 .problems {
   display: flex;
   flex-direction: row;
@@ -290,7 +275,7 @@ a.npm {
   margin: 3rem;
 }
 
-.item {
+/* .item {
   display: flex;
   background: var(--light-green);
   background-image: url(img/arrows-09-09-09.png);
@@ -298,7 +283,7 @@ a.npm {
   border-radius: 15px;
   padding: 50px;
   margin: 10px;
-}
+} */
 
 .item-img {
   padding: 2rem 2rem 2rem 0;
@@ -437,17 +422,17 @@ a.menu-links {
   margin: 0 12px;
   letter-spacing: 1px;
   font-size: 12px;
-  line-height: 16px;
-  font-weight: 900;
+  line-height: 14px;
+  font-weight: 500;
   text-transform: uppercase;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: #000;
+  color: #738b09;
 }
 a.menu-links::before {
   content: '';
   display: block;
   position: absolute;
-  bottom: 3px;
+  bottom: 1px;
   left: 0;
   height: 3px;
   width: 100%;
