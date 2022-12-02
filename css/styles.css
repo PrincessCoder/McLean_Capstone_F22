@@ -31,7 +31,7 @@ body {
   font-family: var(--font-sans-serif);
   font-size: medium;
   color: gray;
-  /*background-color: rgba(255, 204, 51, 10%);*/
+  background-color: rgba(255, 204, 51, 10%);
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -43,9 +43,8 @@ body {
 .container {
   max-width : 1920px;
   min-width: 380px;
-  width : 900px;
   margin : 0 auto;
-  /* position : relative; */
+  position : relative;
   }
 
   body {
@@ -61,11 +60,11 @@ body {
   /* header */
   
   .header {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+    /* background-color: #fff; */
+    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+    /* position: fixed; */
     width: 100%;
-    z-index: 3;
+    /* z-index: 3; */
   }
   
   .header ul {
@@ -73,7 +72,7 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   
   .header li a {
@@ -204,7 +203,8 @@ iframe {
 
 h1{
   font-family: var(--font-header);
-  font-size: medium;
+  font-size: x-small;
+  font-weight: 300;
   color: #418393;
   width: 100%;
   margin-top: 1em;
