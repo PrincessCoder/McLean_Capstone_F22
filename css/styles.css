@@ -343,91 +343,13 @@ hr {
 
 /*Problem Statement*/
 
-.problems {
+/* .problems {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: 3rem;
-}
-
-/*footer*/
-.footer {
-  /* background: rgb(212, 215, 213); */
-  color: #6e706f;
-  margin: 4em;
-}
-
-.footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer--list {
-  margin: 0;
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.footer--list a {
-  padding: 1rem;
-  text-decoration: none;
-}
-
-/*bibliography*/
-
-.bibliography {
-
-}
-
-.button-style {
-  background-color:rgba(178, 188, 128);
-  background-image: url(img/button-border.png);
-  width: 300px;
-  height: 50px;
-  background-size: 300px 50px;
-  border-radius: 30px;
-  text-align: center;
-  filter: drop-shadow(8px 8px 5px black);
-}
-
-/*card*/
-.card {
-  color: white;
-  max-width: 280px;
-  height: auto;
-  background-image: linear-gradient(to bottom right, var(--green), var(--gray-light));
-  border-radius: 30px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.card h2{
-  color: var(--blue);
-}
-
-.card h3 {
-  font-weight: 100;
-  font-family: Helvetica;
-}<
-
-.card h4 {
-  font-weight: bold;
-  font-size: medium;
-  font-family: Helvetica;
-  font-variant: small-caps;
-  padding: 0;
-}
-
-.card h5 {
-  font-size: 50px;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-}
-
+} */
 
 a:hover, a:focus, a:active{
   color: #666d47;
@@ -478,3 +400,33 @@ a.menu-links:hover::before, a.menu-links:focus::before {
   transform: scale(1, 1);
 }
 
+/*footer*/
+.footer {
+  /* background: rgb(212, 215, 213); */
+  color: #6e706f;
+  margin: 4em;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer--list {
+  margin: 0;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer--list a {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+/*bibliography*/
+
+.bibliography {
+
+}
