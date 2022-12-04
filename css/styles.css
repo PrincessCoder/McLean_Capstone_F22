@@ -190,6 +190,7 @@ body {
   
 .header-image {
   display: cover;
+  width: 100%;
 }
 
 iframe {
